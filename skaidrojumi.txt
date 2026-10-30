@@ -1,0 +1,5 @@
+J1. Pieeja pirms koda
+Vispirms es atvertu žurnalfailu un apskatity ta strukturu, lai saprastu, kuras kolonnas atrodas datums, laiks un kļudas limenis (error). Pec tam es atlasitu tkai tas rindas, kuras ir vards (error), ignorejot parejos ierakstus. No šim atlasitajam rindam es izdalitu tikai stundas daļu (for example, no laika 08:04:02 panemot tikai skaitli 08) talak es saskaititu, cik reižu katra konkreta stunda (no 00 lidz 23) paradas šaja infiltreta saraksta. Beidzot es salidzinatu iegutos skaitļus un izveletos to stundu, kurai vislielakais kļudu skaits
+
+J2. Objekti, nevis teksts
+Bash parsuta vienkaršu tekstu, tapec btu jamin, kura kolonna atrodas atmiņas sakitlis. Powershellam parsuta objektus ar sakidri nosauktam ipašibam. Tas ļauj tieši piekļut atmiņas vertibai pec tas nosaukuma (for example, WorkingSet), paradot filtrešanu daudz vienkaršaku un drošaku pret teksta formata izmaiņam
