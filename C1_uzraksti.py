@@ -12,7 +12,7 @@ import sys
 if len(sys.argv) < 2:
     print("Nezinu ko man te uzrakstit, Be careful")
     sys.exit()
-limenis = sys.argv[2]
+limenis = sys.argv[1]
 skaits = 0
 atrastas_rindas = []
 with open("sistema.log", encoding="utf-8") as f:
