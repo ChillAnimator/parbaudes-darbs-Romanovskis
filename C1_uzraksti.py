@@ -10,7 +10,7 @@
 
 import sys
 if len(sys.argv) < 2:
-    print("Nezinu ko man te uzrakstit, Be careful")
+    print("Nezinu ko man te uzrakstit, uzraksti vairak neka viekrasi faila nosaukumu, piemeram: python C1_uzraksti.py (WARNING vai INFO vai ERROR")
     sys.exit()
 limenis = sys.argv[1]
 skaits = 0
