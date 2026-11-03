@@ -10,4 +10,4 @@
 $diski = Get-PSDrive -PSProvider FileSystem |
     Select-Object Name, Used, Free
 
-$diski | Export-Csv -path "diski.csv" -NoTypeInformation
+$diski | Export-Csv -path "diski.csv" -NoTypeInformation -Encoding UTF8
